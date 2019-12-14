@@ -1,18 +1,7 @@
 body {
   background-color: rgb(166, 204, 255);
 }
-
-#text {
-        color: white;
-        border-radius: 1em;
-        padding: 1em;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        margin-right: -50%;
-        transform: translate(-50%, -50%)
-}
-/* /!\ You need to add vendor prefixes in order to render the CSS properly (or simply use http://leaverou.github.io/prefixfree/) /!\ */ #tridiv {
+#tridiv {
   perspective: 800px;
   position: absolute;
   overflow: hidden;
@@ -46,7 +35,6 @@ body {
   overflow: hidden;
   transform-origin: 0 0;
   backface-visibility: hidden;
-  /* hidden by default, prevent blinking and other weird rendering glitchs */
 }
 .face {
   background-size: 100% 100%!important;
